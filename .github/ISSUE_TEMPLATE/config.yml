@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project Discussion
+    url: https://github.com/soham-exe/Explainable-Drift-Detection-Recommendation-System/discussions
+    about: For questions and open-ended discussion, use Discussions instead of issues.

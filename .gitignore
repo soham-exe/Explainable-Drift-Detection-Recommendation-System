@@ -1,20 +1,31 @@
-# Node
+# Node / Frontend
 node_modules/
 dist/
+dist-ssr/
+*.local
+.vite/
 
-# Tauri/Rust
+# Tauri / Rust
 ExplainAI/src-tauri/target/
 ExplainAI/src-tauri/gen/
 
-# Python (backend later)
+# Python / Backend
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
 .venv/
 venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Env
-.env
-
-# OS
+# Editor / OS
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
+
+# Env / Secrets
+.env
+.env.*
+!.env.example
